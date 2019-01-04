@@ -5,9 +5,5 @@ AI.prototype.gather=function(data){
 }
 
 AI.prototype.analyze=function(str){
-  
-  
-  
-  
-  
+  this.info.push(str);
 }
