@@ -6,7 +6,9 @@ function AI(){
   this.vals=["abcdefghijklmnopqrstuvwxyz"];
   this.sort=function(){
     for(var i=0;i<this.orders.length;i++){
-      numOf(this.orders[i],this.orders);
+      if(numOf(this.orders[i],this.orders)>=5&&this.commonOrders.findIndexOf(this.orders[i])>-1){
+        this.commonOrders.push(orders[i]);
+      }
     }
   }
 }
