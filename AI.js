@@ -25,3 +25,9 @@ function numOf(a, b){
   }
   return out;
 }
+var ai=new AI();
+function begin(){
+  ai.gather(["Hello I'm JR","My name is JR","I'm JR","Hi Joe","Bye Joe"]);
+  ai.sort();
+  ai.generate()
+}
