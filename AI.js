@@ -4,6 +4,7 @@ function AI(){
   this.orders=[];
   this.commonOrders=[];
   this.vals=["abcdefghijklmnopqrstuvwxyz"];
+  this.vals[0]+=this.vals[0].toUpperCase();
   this.sort=function(){
     for(var i=0;i<this.orders.length;i++){
       if(numOf(this.orders[i],this.orders)>=5&&this.commonOrders.findIndexOf(this.orders[i])>-1){
