@@ -39,6 +39,7 @@ function AI(){
       out+=" ";
     }
     document.getElementById("output").innerHTML=out;
+    console.log(out+"K");
   }
 }
 
