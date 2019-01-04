@@ -1,4 +1,4 @@
-AI.prototype.generate=function(){
+/*AI.prototype.generate=function(){
   var out="";
   for(var i=0;i<2;i++){
     out+=translate(this.orders[Math.trunc(Math.random()*this.orders.length)]);
@@ -16,3 +16,4 @@ function translate(c){
   }
   return c;
 }
+*/
